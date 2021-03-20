@@ -32,6 +32,12 @@
 
 > 🧠 Feel free to open a PR to add more axamples
 
+# Examples
+
+[Radius background](https://github.com/rokkoo/react-native-animation-examples/blob/main/src/components/RadiusBackground/index.tsx)
+
+![Radius background](https://media.giphy.com/media/MG1bwxObgFk2PO064s/giphy.gif)
+
 ## 📝 Docs
 
 - [Expo Reanimated docs](https://docs.expo.io/versions/latest/sdk/reanimated)
