@@ -1,6 +1,4 @@
-# [Moti Example](https://moti.fyi/)
-
-# react-native-animation-examples
+# React Native Animation Examples
 
 <p>
   <!-- iOS -->
