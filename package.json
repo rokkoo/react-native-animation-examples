@@ -1,4 +1,15 @@
 {
+  "author": {
+    "name": "Alfonso Lasa",
+    "url": "https://twitter.com/alfonso_dev"
+  },
+  "description": "A repository with some examples with Reanimated and Moti library",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rokkoo/react-native-animation-examples"
+  },
+  "license": "MIT",
   "dependencies": {
     "expo": "~40.0.0",
     "framer-motion": "^3.3.0",
@@ -23,5 +34,5 @@
     "web": "expo start --web",
     "eject": "expo eject"
   },
-  "private": true
+  "private": false
 }
