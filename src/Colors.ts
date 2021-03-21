@@ -5,5 +5,6 @@ export default {
     blue: 'rgb(51, 54, 255)',
     pink: 'rgb(233, 51, 255)',
     black: 'rgb(33, 47, 60)',
-    white: 'rgb(247, 249, 249)'
+    white: 'rgb(247, 249, 249)',
+    red: 'rgb(231, 76, 60)'
 }
