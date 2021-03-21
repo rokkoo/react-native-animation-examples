@@ -3,10 +3,12 @@ import { Pressable, StyleSheet, Text, View } from 'react-native';
 import { NavigationContainer, useNavigation } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import { SafeAreaView } from 'react-native-safe-area-context';
+import { ScrollView } from 'react-native-gesture-handler';
+
+import Colors from './src/Colors';
 
 import RadiusBackground from './src/exmaples/RadiusBackground';
-import Colors from './src/Colors';
-import { ScrollView } from 'react-native-gesture-handler';
+import TabHeart from './src/exmaples/TabHeart';
 
 const Stack = createStackNavigator();
 
@@ -16,9 +18,20 @@ function HomeScreen() {
   return (
     <SafeAreaView style={styles.contianer}>
       <ScrollView>
-        <Pressable onPress={() => navigation.navigate('RadiusBackground')}>
-          <View style={styles.screenContianer}>
+        <Pressable
+          onPress={() => navigation.navigate('RadiusBackground')}
+          style={styles.screenContianer}
+        >
+          <View>
             <Text style={styles.screenTitle}>Radius background</Text>
+          </View>
+        </Pressable>
+        <Pressable
+          onPress={() => navigation.navigate('TabHeart')}
+          style={styles.screenContianer}
+        >
+          <View>
+            <Text style={styles.screenTitle}>TabHeart</Text>
           </View>
         </Pressable>
       </ScrollView>
@@ -37,6 +50,7 @@ export default function App() {
         >
           <Stack.Screen name="Home" component={HomeScreen} />
           <Stack.Screen name="RadiusBackground" component={RadiusBackground} />
+          <Stack.Screen name="TabHeart" component={TabHeart} />
         </Stack.Navigator>
       </NavigationContainer>
     </SafeAreaView>
@@ -55,6 +69,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 12,
     backgroundColor: Colors.white,
     borderRadius: 8,
+    marginVertical: 10,
   },
   screenTitle: {
     fontSize: 28,
