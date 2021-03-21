@@ -4,7 +4,7 @@ import { NavigationContainer, useNavigation } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
-import RadiusBackground from './src/components/RadiusBackground';
+import RadiusBackground from './src/exmaples/RadiusBackground';
 import Colors from './src/Colors';
 import { ScrollView } from 'react-native-gesture-handler';
 
@@ -39,7 +39,6 @@ export default function App() {
           <Stack.Screen name="RadiusBackground" component={RadiusBackground} />
         </Stack.Navigator>
       </NavigationContainer>
-      {/* <RadiusBackground /> */}
     </SafeAreaView>
   );
 }
