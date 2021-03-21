@@ -7,8 +7,8 @@ import { ScrollView } from 'react-native-gesture-handler';
 
 import Colors from './src/Colors';
 
-import RadiusBackground from './src/exmaples/RadiusBackground';
-import TabHeart from './src/exmaples/TabHeart';
+import RadiusBackground from './src/examples/RadiusBackground';
+import TabHeart from './src/examples/TabHeart';
 
 const Stack = createStackNavigator();
 
