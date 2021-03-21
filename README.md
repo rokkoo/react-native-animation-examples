@@ -34,9 +34,13 @@
 
 # Examples
 
-[Radius background](https://github.com/rokkoo/react-native-animation-examples/blob/main/src/components/RadiusBackground/index.tsx)
+[Radius background](https://github.com/rokkoo/react-native-animation-examples/blob/main/src/examples/RadiusBackground/index.tsx)
 
 ![Radius background](https://media.giphy.com/media/MG1bwxObgFk2PO064s/giphy.gif)
+
+[Tab Heart](https://github.com/rokkoo/react-native-animation-examples/tree/main/src/examples/TabHeart/index.tsx)
+
+![Tab Heart](https://media.giphy.com/media/jJX3pidl7iLGeBEpoW/giphy.gif)
 
 ## 📝 Docs
 
